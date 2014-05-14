@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "v2.3.2"
+    "bootstrap": "2.3.2",
+    "colorbox": "1.5.9"
   }
 }
