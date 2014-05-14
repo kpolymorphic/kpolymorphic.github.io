@@ -1,0 +1,21 @@
+{
+  "name": "grndlvl.gihub.io",
+  "version": "0.0.1",
+  "authors": [
+    "Jonathan DeLaigle <delaigle.jonathan@gmail.com>"
+  ],
+  "description": "Jonathan DeLaigle's personal blog.",
+  "license": "MIT",
+  "homepage": "http://grndlvl.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v2.3.2"
+  }
+}

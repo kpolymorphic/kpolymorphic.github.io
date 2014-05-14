@@ -1,0 +1,10 @@
+# Site settings
+title: Jonathan DeLaigle
+email: delaigle.jonathan@gmail.com
+description: ""
+baseurl: ""
+url: "http://grndlvl.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,27 @@
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+pre {
+  overflow: auto;
+  font-family: monospace;
+  white-space: pre;
+  word-wrap: normal;
+}
+/* Account for double digit line numbers in the code blocks. */
+pre ul,
+pre ol {
+  margin-left: 34px;
+}
+
+.recent-posts {
+  margin: 4px;
+}
+
+body {
+  padding-top: 60px;
+}

@@ -1,0 +1,66 @@
+---
+layout: default
+---
+    <div class="home row-fluid">
+      <div class="span4">
+        <div class="center">
+          <img alt="Gorillaz inspired avatar of myself." src="/images/avatar.jpg" title="Gorillaz inspired avatar of myself." />
+          <p>
+            <a title="Contact me via e-mail." class="btn btn-primary" href="mailto:delaigle.jonathan@gmail.com"><i class="icon-envelope icon-white"></i> Contact me</a>
+          </p>
+          <a href="http://drupal.org/user/103553" title="Drupal profile.">Drupal profile</a> · <a href="http://linkedin.com/in/delaigle" title="Connect with me on LinkIn.">LinkedIn pofile</a><br />
+          <a href="http://github.com/grndlvl" title="Follow me on Github.">Github profile</a><br />
+          <a href="http://advomatic.com" title="Advomatic, a full service web technology firm."><img alt="Advomatic's logo" width="147" src="/images/advomaticsmall.png" /></a><br />
+          <a href="http://getcadre.com" title="Cadre - Simply Solid Web Hosting."><img alt="Cadre's logo" width="147" src="/images/hosting_logo.png"></a><br />
+          <a href="http://www.vim.org" title="Vim - The one true religion."><img alt="Vim's logo" src="/images/vim.png" /></a>
+        </div>
+      </div>
+      <div class="span8">
+        <div class="center">
+          <h3 id="about">About</h3>
+          <h5>Software Engineer in Augusta, GA</h5>
+          <p>
+            <em>Web development · Software and data architecture</em>
+          </p>
+        </div>
+        <h4>Highlights of Expertise</h4>
+        <table class="table table-bordered">
+          <tr><td>Software Design & Development</td><td>Debugging & Problem Resolution</td></tr>
+          <tr><td>Requirements Gathering</td><td>Technical & User Oriented Documentation</td></tr>
+          <tr><td>Solutions Development</td><td>Technical Support</td></tr>
+        </table>
+
+        <h4>Technical Proficiencies</h4>
+        <table class="table table-bordered">
+          <tr><td>Platforms</td><td>Linux, Mac OSX, Windows</td></tr>
+          <tr><td>Tools</td><td>Apache, Content Management Systems, Compass, Drupal, jQuery, Linux, LibreOffice, MySQL, OpenOffice, Revision Control Systems (GIT, SVN, and CVS), REST, SOAP, Silex, Vim</td></tr>
+          <tr><td>Languages</td><td>Bash, C#, C++, HTML5, CSS3, JavaScript, Java, Perl, PHP, Python, Ruby, UML, XML, XHTML, XPATH</td></tr>
+        </table>
+      </div>
+      <div class="span12">
+        <h3 id="current-projects">Current Projects</h3>
+        <div class="center">
+          <ul class="inline">
+            <li class="btn" style="margin: 2px auto"><a href="http://drupal.org/project/domain_path">Domain Path</a></li>
+            <li class="btn" style="margin: 2px auto"><a href="http://drupal.org/sandbox/grndlvl/1930260">Drush Make Sync</a></li>
+            <li class="btn" style="margin: 2px auto"><a href="http://github.com/grndlvl/drupal-snippets">drupal-snippets</a></li>
+            <li class="btn" style="margin: 2px auto"><a href="http://drupal.org/project/embed_views">Embed Views Display</a></li>
+            <li class="btn" style="margin: 2px auto"><a href="http://drupal.org/sandbox/grndlvl/1885422">Entity Translation Panels IPE</a></li>
+            <li class="btn" style="margin: 2px auto"><a href="http://drupal.org/project/views_slideshow_liquidcarousel">Views Slideshow Liquid Carousel</a></li>
+            <li class="btn" style="margin: 2px auto"><a href="http://github.com/Andy-Thornton/Mirador">Mirador</a></li>
+          </ul>
+        </div>
+        <h3 id="recent-posts">Recent Posts</h3>
+        <dl class="dl-horizontal">
+        {% for post in site.posts %}
+          <dt>
+            <i class="icon-calendar"></i><span class="lead">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </dt>
+          <dd>
+            <a class="lead" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </dd>
+        {% endfor %}
+        </dl>
+        <a class="btn" href="/posts" title="Read more posts.">More posts <i class="icon-chevron-right"></i></a>
+      </div>
+    </div>
