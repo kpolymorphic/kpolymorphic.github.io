@@ -1,0 +1,15 @@
+---
+layout: default
+title: Posts
+---
+  <h1>{{ page.title }}</h3>
+  <dl class="dl-horizontal">
+  {% for post in site.posts %}
+    <dt>
+      <i class="icon-calendar"></i><span class="lead">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </dt>
+    <dd>
+      <a class="lead" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </dd>
+  {% endfor %}
+  </dl>

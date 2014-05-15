@@ -1,0 +1,12 @@
+<ul class="pager">
+  {% if page.previous != null %}
+  <li class="previous">
+      <a title="Older post" href="{{  page.previous.url | prepend: site.baseurl }}"><i class="icon-chevron-left"></i> Older</a>
+  </li>
+  {% endif %}
+  {% if page.next != null %}
+  <li class="next">
+    <a title="Newer post" href="{{  page.next.url | prepend: site.baseurl }}">Newer<i class="icon-chevron-right"></i></a>
+  </li>
+  {% endif %}
+</ul>

@@ -45,7 +45,6 @@
     "commit": "228600c97f83f7bf264e0761129e562331a458a7"
   },
   "_source": "git://github.com/jackmoore/colorbox.git",
-  "_target": "~1.5.9",
-  "_originalSource": "colorbox",
-  "_direct": true
+  "_target": "1.5.9",
+  "_originalSource": "colorbox"
 }

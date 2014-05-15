@@ -7,5 +7,25 @@
     <script>
       $(document).ready(function() {
         $(".colorbox").colorbox({maxWidth:'95%', maxHeight:'95%'});
+
+        var $link = null;
+        var full_path = location.pathname + location.hash;
+        $('ul.nav li').each(function() {
+          $link = $('a', this);
+          if ($link.attr('href') == full_path) {
+            $(this).addClass('active');
+          }
+        });
       });
     </script>
+  {% if page.url != '/' %}
+    <div class="container">
+      <div class="center">
+        <p>
+          {% if app.request.pathInfo != '/' %}
+            <a href="/" class="btn btn-large btn-primary btn-home"><i class="icon-home icon-white"></i> Go back home</a>
+          {% endif %}
+        </p>
+      </div>
+    </div>
+  {% endif %}

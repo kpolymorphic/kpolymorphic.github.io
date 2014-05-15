@@ -3,6 +3,7 @@ title: Jonathan DeLaigle
 email: delaigle.jonathan@gmail.com
 description: ""
 baseurl: ""
+highlighter: pygments
 url: "http://grndlvl.com"
 
 # Build settings

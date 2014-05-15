@@ -9,9 +9,11 @@
             <a class="brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              {% for page in site.pages %}
-                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-              {% endfor %}
+              <li><a href="/">Home</a></li>
+              <li><a href="/#about">About</a></li>
+              <li><a href="/#current-projects">Current Projects</a></li>
+              <li><a href="/posts/">Posts</a></li>
+              <li><a href="/references/">References</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

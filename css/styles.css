@@ -25,3 +25,7 @@ pre ol {
 body {
   padding-top: 60px;
 }
+
+a.btn-home:visited {
+  color: white;
+}
