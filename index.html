@@ -51,17 +51,5 @@ layout: default
             <li class="btn" style="margin: 2px auto"><a href="http://github.com/Andy-Thornton/Mirador">Mirador</a></li>
           </ul>
         </div>
-        <h3 id="recent-posts">Recent Posts</h3>
-        <dl class="dl-horizontal">
-        {% for post in site.posts limit: 5 %}
-          <dt>
-            <i class="icon-calendar"></i><span class="lead">{{ post.date | date: "%Y-%m-%d" }}</span>
-          </dt>
-          <dd>
-            <a class="lead" title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </dd>
-        {% endfor %}
-        </dl>
-        <a class="btn" href="/posts" title="Read more posts.">More posts <i class="icon-chevron-right"></i></a>
       </div>
     </div>
