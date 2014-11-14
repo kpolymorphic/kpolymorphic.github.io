@@ -4,7 +4,10 @@ email: delaigle.jonathan@gmail.com
 description: ""
 baseurl: ""
 highlighter: pygments
-url: "http://grndlvl.com"
+url: "http://www.grndlvl.com"
+exclude:
+  - atom.xml
+  - feed.xml
 
 # Build settings
 markdown: kramdown
