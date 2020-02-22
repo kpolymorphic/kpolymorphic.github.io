@@ -1,12 +1,12 @@
 {
-  "name": "grndlvl.gihub.io",
+  "name": "kpolymorphic.gihub.io",
   "ersion": "0.0.1",
   "authors": [
-    "Jonathan DeLaigle <delaigle.jonathan@gmail.com>"
+    "Kelly Beck <kelly@kellybeck.me>"
   ],
-  "description": "Jonathan DeLaigle's personal blog.",
+  "description": "Kelly Beck's personal blog.",
   "license": "MIT",
-  "homepage": "http://grndlvl.github.io",
+  "homepage": "http://kpolymorphic.github.io",
   "private": true,
   "ignore": [
     "**/.*",

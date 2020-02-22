@@ -1,10 +1,10 @@
 # Site settings
-title: Jonathan DeLaigle
-email: delaigle.jonathan@gmail.com
+title: Kelly Beck
+email: kelly@kellybeck.me
 description: ""
 baseurl: ""
 highlighter: pygments
-url: "http://www.grndlvl.com"
+url: "http://kellybeck.me"
 exclude:
   - atom.xml
   - feed.xml

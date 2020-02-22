@@ -29,3 +29,8 @@ body {
 a.btn-home:visited {
   color: white;
 }
+
+img#avatar {
+  width: 200px;
+  margin-bottom: 20px;
+}
